@@ -1,6 +1,4 @@
-# 📁 Folder Merger Tool
-
-![Folder Merger Logo](https://your-image-link.com/logo.png)
+📁 Folder Merger Tool
 
 ## Overview
 
