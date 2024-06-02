@@ -26,9 +26,9 @@
 ### Clone and Run
 
 ```bash
-git clone https://github.com/your-username/folder-merger-tool.git
+git clone https://github.com/yourgodfather12/folder-merger-tool.git
 cd folder-merger-tool
-python folder_merger.py
+python main.py
 
 ## USAGE 
 
