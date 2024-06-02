@@ -95,7 +95,7 @@ def delete_empty_folders(folder_path):
 
 # Function to handle folder selection
 def select_folder():
-    folder_selected = filedialog.askdirectory()
+    folder_selected = filedialog.askdirectory(mustexist=False)
     if folder_selected:
         folder_var.set(folder_selected)
         # Populate subdirectories listbox
@@ -106,7 +106,7 @@ def select_folder():
 
 # Function to handle output folder selection
 def select_output_folder():
-    folder_selected = filedialog.askdirectory()
+    folder_selected = filedialog.askdirectory(mustexist=False)
     if folder_selected:
         output_folder_var.set(folder_selected)
 
