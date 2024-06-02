@@ -1,4 +1,4 @@
-📁 Folder Merger Tool
+# 📁 Folder Merger Tool
 
 ## Overview
 
@@ -30,7 +30,7 @@ git clone https://github.com/your-username/folder-merger-tool.git
 cd folder-merger-tool
 python folder_merger.py
 
-USAGE 
+## USAGE 
 
 1. Select Folder: Choose the main directory.
 2. Select Subdirectories: Pick subdirectories to merge.
