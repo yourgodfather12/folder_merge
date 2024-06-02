@@ -1,27 +1,44 @@
-## Prerequisites
+# 📁 Folder Merger Tool
+
+![Folder Merger Logo](https://your-image-link.com/logo.png)
+
+## Overview
+
+**Folder Merger Tool** is a powerful, user-friendly application to help you organize and manage directories. Merge folders, handle duplicates, delete empty directories, and remove zero-size files effortlessly!
+
+## Features
+
+- 🔄 **Hierarchical Directory Deduplication**
+- 📂 **Duplicate File Management**: Skip, Replace, Rename
+- 🗃️ **File Type Filtering**
+- 🚮 **Delete Empty Folders**
+- 📉 **Remove Zero-Size Files**
+- 📈 **Progress Tracking**
+- ❌ **Cancel Operation**
+- 📜 **Detailed Logging**
+
+## Installation
+
+### Prerequisites
 
 - Python 3.x
-- Tkinter library (usually included with Python installations)
+- `tkinter` (included with Python)
+- `shutil` (included with Python standard library)
 
-## Usage
+### Clone and Run
 
-1. Run the script.
-2. Click on the "Select Folder" button to choose the directory containing the folders you want to merge.
-3. Once the folder is selected, click on the "Merge" button to start the merging process.
-4. A progress bar will indicate the progress of the merging operation.
-5. After the process completes, the merged folders will be available in the specified directory.
+```bash
+git clone https://github.com/your-username/folder-merger-tool.git
+cd folder-merger-tool
+python folder_merger.py
 
-## Notes
+USAGE 
 
-- Ensure that the folders to be merged have a common base name followed by numerical suffixes (e.g., "Folder (1)", "Folder (2)", etc.).
-- Only folders containing images or videos will be merged. Other files will be skipped.
-- Empty folders will be deleted automatically after the merging process.
-
-## Customization
-
-- You can customize the appearance of the GUI by modifying the styles in the script.
-- Adjust the resizing behavior by changing the divisor in the `resize_fonts` function to control text scaling.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+1. Select Folder: Choose the main directory.
+2. Select Subdirectories: Pick subdirectories to merge.
+3. Select Output Folder: Choose the target directory.
+4. Include/Exclude Extensions: Specify extensions.
+5. Handle Duplicates: Skip, Replace, or Rename.
+6. Merge: Click "Merge" to start.
+7. Cancel: Stop the operation anytime.
+8. Progress: Monitor real-time progress and status.
